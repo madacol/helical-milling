@@ -1,0 +1,89 @@
+
+Circuit Wizard Gerber Export
+
+Created : 23/04/2013 15:56:58
+Source  : Circuit Wizard 1.50 (09 Oct 2009) :: Build C.6
+Design  : Fresado helicoidal.cwz
+Title   : 
+Author  : 
+Company : 
+
+RS-274X (extended) Gerber export.
+2.3 format, inches, absolute.
+No zero suppression.
+Aperture table defined in Gerber file.
+
+-----------------------------------------------------------------------------
+
+File: "C:\Electronica\Proyectos\Fresado helicoidal\Fresado helicoidal (Display).drl"
+
+  Drill hole layer
+
+  T-Code   Size
+  T01      ,030
+  T02      ,032
+  T03      ,050
+  T04      ,100
+
+-----------------------------------------------------------------------------
+
+File: "Fresado helicoidal (Display).gb0"
+
+  Board outline layer
+
+  D-Code   Type
+  D10      Circle ,005
+  D11      Circle ,010
+
+-----------------------------------------------------------------------------
+
+File: "Fresado helicoidal (Display).gb1"
+
+  Bottom copper (solder side) layer
+
+  D-Code   Type
+  D10      Circle ,005
+  D11      Oval ,080 ,120
+  D12      Circle ,020
+  D13      Circle ,080
+  D14      Circle ,125
+  D15      Circle ,200
+  D16      Circle ,040
+  D17      Circle ,010
+  D18      Oval ,120 ,050
+  D19      Circle ,120
+
+-----------------------------------------------------------------------------
+
+File: "Fresado helicoidal (Display).gb2"
+
+  Bottom (solder side) solder mask layer
+
+  D-Code   Type
+  D10      Circle ,005
+  D11      Oval ,080 ,120
+  D12      Circle ,080
+  D13      Circle ,125
+  D14      Circle ,200
+  D15      Oval ,120 ,050
+  D16      Circle ,120
+  D17      Oval ,090 ,130
+  D18      Circle ,090
+  D19      Circle ,135
+  D20      Circle ,210
+  D21      Oval ,130 ,060
+  D22      Circle ,130
+
+-----------------------------------------------------------------------------
+
+File: "Fresado helicoidal (Display).gb3"
+
+  Silk screen (component outline) layer
+
+  D-Code   Type
+  D10      Circle ,005
+  D11      Circle ,002
+
+-----------------------------------------------------------------------------
+
+End of report.

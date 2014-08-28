@@ -1,0 +1,109 @@
+
+Circuit Wizard Gerber Export
+
+Created : 23/04/2013 15:56:35
+Source  : Circuit Wizard 1.50 (09 Oct 2009) :: Build C.6
+Design  : Fresado helicoidal.cwz
+Title   : 
+Author  : 
+Company : 
+
+RS-274X (extended) Gerber export.
+2.3 format, inches, absolute.
+No zero suppression.
+Aperture table defined in Gerber file.
+
+-----------------------------------------------------------------------------
+
+File: "C:\Electronica\Proyectos\Fresado helicoidal\Fresado helicoidal (Logic).drl"
+
+  Drill hole layer
+
+  T-Code   Size
+  T01      ,030
+  T02      ,032
+  T03      ,032
+  T04      ,050
+  T05      ,100
+
+-----------------------------------------------------------------------------
+
+File: "Fresado helicoidal (Logic).gb0"
+
+  Board outline layer
+
+  D-Code   Type
+  D10      Circle ,005
+  D11      Circle ,010
+
+-----------------------------------------------------------------------------
+
+File: "Fresado helicoidal (Logic).gb1"
+
+  Bottom copper (solder side) layer
+
+  D-Code   Type
+  D10      Circle ,005
+  D11      Circle ,010
+  D12      Circle ,080
+  D13      Circle ,030
+  D14      Oval ,120 ,060
+  D15      Circle ,020
+  D16      Circle ,125
+  D17      Circle ,040
+  D18      Oval ,120 ,050
+  D19      Oval ,080 ,050
+  D20      Oval ,050 ,120
+  D21      Circle ,200
+  D22      Oval ,080 ,120
+  D23      Circle ,060
+  D24      Oval ,100 ,140
+  D25      Oval ,140 ,100
+  D26      Circle ,120
+
+-----------------------------------------------------------------------------
+
+File: "Fresado helicoidal (Logic).gb2"
+
+  Bottom (solder side) solder mask layer
+
+  D-Code   Type
+  D10      Circle ,005
+  D11      Circle ,080
+  D12      Oval ,120 ,060
+  D13      Circle ,125
+  D14      Oval ,120 ,050
+  D15      Oval ,080 ,050
+  D16      Oval ,050 ,120
+  D17      Circle ,200
+  D18      Oval ,080 ,120
+  D19      Oval ,100 ,140
+  D20      Oval ,140 ,100
+  D21      Circle ,120
+  D22      Circle ,060
+  D23      Circle ,090
+  D24      Oval ,130 ,070
+  D25      Circle ,135
+  D26      Oval ,130 ,060
+  D27      Oval ,090 ,060
+  D28      Oval ,060 ,130
+  D29      Circle ,210
+  D30      Oval ,090 ,130
+  D31      Oval ,110 ,150
+  D32      Oval ,150 ,110
+  D33      Circle ,130
+  D34      Circle ,070
+
+-----------------------------------------------------------------------------
+
+File: "Fresado helicoidal (Logic).gb3"
+
+  Silk screen (component outline) layer
+
+  D-Code   Type
+  D10      Circle ,005
+  D11      Circle ,002
+
+-----------------------------------------------------------------------------
+
+End of report.
