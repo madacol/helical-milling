@@ -1,4 +1,14 @@
 helical-milling
 ===============
 
-A project that allows a common horizontal milling machine to COPY 
+This project allows a fixed horizontal milling machine to COPY helical teeths from sample to target
+
+## Requirements
+
+- Electronic device using a PIC16F877A (Schematic Design provided in this project)
+- Encoder to read X axis movements
+- Mandrel moved by a motor
+- Compatible motor driver
+- 5-10V DC Supply
+
+
